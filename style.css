@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: 650px;
+}
+
+.box {
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    opacity: 0.65;
+    top: 0;
+    position: absolute;
+}
+
+.container {
+    background-color: white;
+    width: 35%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.emslogo img {
+    height: 70px;
+    width: 70px;
+    top: 0;
+    position: absolute;
+    z-index: 10;
+    padding: 30px;
+}
+.icloud{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    top: 0;
+    position: absolute;
+    z-index: 10;
+    color: white;
+    padding-left: 110px;
+    padding-top: 40px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    top: 0;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 40px;
+    margin-right: 600px;
+    color: white;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 450;
+    font-family: Poppins, sans-serif;
+}
+.body p{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    top: 0;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 40px;
+    margin-right: 520px;
+    color: white;
+    z-index: 10;
+    gap: 2px;
+
+}
+.footer{
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    top: 0;
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 40px;
+    margin-right: 520px;
+    color: rgba(255, 255, 255, 0.5);
+    z-index: 10;
+}
+.last{
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    top: 0;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 40px;
+    margin-right: 520px;
+    color: rgba(255, 255, 255, 0.5);
+    z-index: 10;
+}
+.logo img{
+    height: 32px;
+    width: 220px;
+    top: 0;
+    position: absolute;
+    z-index: 10;
+    margin-left: 1000px;
+    margin-top: 40px;
+}
+.id{
+    top: 0;
+    position: absolute;
+    z-index: 10;
+    margin-left: 920px;
+    margin-top: 100px;
+  
+
+}
+.id input{
+    width: 350px;
+    text-decoration: underline;
+    color:  rgba(228, 222, 222, 0.596);
+    text-decoration-color:  rgba(165, 161, 161, 0.575);
+    border: 2px solid white;
+    padding-bottom: 5px;
+    font-size: 15px;
+    border-bottom: 10x;
+   
+}
+.pass{
+    top: 0;
+    position: absolute;
+   
+    margin-left: 920px;
+    margin-top: 170px;
+  
+}
+.pass input{
+    width: 350px;
+    text-decoration: underline;
+    color:  rgba(228, 222, 222, 0.596);
+    text-decoration-color:  rgba(165, 161, 161, 0.575);
+    border: 2px solid white;
+    font-size: 15px;
+
+}
+.option{
+    top: 0;
+    position: absolute;
+    margin-left: 920px;
+    margin-top: 240px;
+    width: 350px;
+    border: 2px solid white;
+}
+.option button select{
+    width: 350px;
+    font-size: 15px;
+    background-color: white; 
+    border: 2px solid white;
+    font-family:  Poppins, sans-serif;
+    color:  rgb(90, 87, 87);  
+}
+.forgot a{
+    top: 0;
+    position: absolute;
+    margin-left: 920px;
+    margin-top: 300px;
+    font-family:  Poppins, sans-serif;
+    width: 350px;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(14, 42, 189);
+}
+.login a{
+    top: 0;
+    position: absolute;
+    margin-left: 1200px;
+    border: 5px solid rgb(17, 0, 255);
+    border-radius: 5px;
+    background-color: rgb(17, 0, 255);
+    margin-top: 300px;
+    font-family:  Poppins, sans-serif;
+    font-weight: 400;
+    width: 80px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.login img{
+    height: 20px;
+    width: 20px;
+    top: 0;
+    position: absolute;
+    z-index: 10;
+    margin-left: 1258px;
+    margin-top: 303px;
+
+    
+}
+.google a{
+    top: 0;
+    position: absolute;
+    margin-left: 920px;
+    border-radius: 3px;
+    background-color: rgb(19, 128, 172);
+    margin-top: 370px;
+    font-family:  Poppins, sans-serif;
+    font-weight: 600;
+    width: 200px;
+    height: 35px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.google img{
+    width: 30px;
+    height: 31px;
+    margin-top: 372px;
+    margin-left: 921px;
+}
